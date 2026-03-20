@@ -2,19 +2,19 @@
 
 
 :root {
-  --background: #11001c;
+  --background: rgb(4, 0, 5);
   --foreground: #ffffff;
 }
 
 @theme {
   --color-brand: #ff0000;
-  --color-bcolor: #11001c;
-  --color-accent: #ff00ff;
+  --color-bcolor: rgb(4, 0, 5);
+  --color-accent: #A656E1;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: rgb(4, 0, 5);
     --foreground: #ededed;
   }
 }

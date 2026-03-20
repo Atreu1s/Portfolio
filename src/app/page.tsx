@@ -9,10 +9,7 @@ export default function Home() {
       
 
       <div className="max-w-300 w-full mx-auto text-white">
-        <h1>hello</h1>
-        <div className="grid">
-
-        </div>
+        
       </div>
       
     </section>

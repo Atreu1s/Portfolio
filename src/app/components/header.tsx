@@ -49,7 +49,7 @@ export default function Header() {
                 <Link 
                   href="#about" 
                   onClick={handleLinkClick}
-                  className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300"
+                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300"
                 >
                   Обо мне
                 </Link>
@@ -58,7 +58,7 @@ export default function Header() {
                 <Link 
                   href="#skills" 
                   onClick={handleLinkClick}
-                  className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300"
+                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300"
                 >
                   Навыки
                 </Link>
@@ -67,7 +67,7 @@ export default function Header() {
                 <Link 
                   href="#Projects" 
                   onClick={handleLinkClick}
-                  className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300"
+                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300"
                 >
                   Проекты
                 </Link>
@@ -76,7 +76,7 @@ export default function Header() {
                 <Link 
                   href="#education" 
                   onClick={handleLinkClick}
-                  className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300"
+                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300"
                 >
                   Образование
                 </Link>
@@ -85,7 +85,7 @@ export default function Header() {
                 <Link 
                   href="#contacts" 
                   onClick={handleLinkClick}
-                  className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300"
+                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300"
                 >
                   Контакты
                 </Link>

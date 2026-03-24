@@ -30,3 +30,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@keyframes slime {
+  0% {
+    border-radius: 30% 70% 55% 45% / 40% 45% 55% 60%;
+  }
+  25% {
+    border-radius: 60% 40% 45% 55% / 50% 60% 40% 50%;
+  }
+  50% {
+    border-radius: 50% 50% 60% 40% / 60% 40% 50% 50%;
+  }
+  75% {
+    border-radius: 45% 55% 40% 60% / 55% 50% 60% 45%;
+  }
+  100% {
+    border-radius: 35% 65% 55% 45% / 40% 45% 55% 60%;
+  }
+}
+
+.animate-slime {
+  animation: slime 8s ease-in-out infinite;
+  border: 1 px solid var(--color-accent);
+}
+

@@ -58,7 +58,7 @@ const TypingText: React.FC<TypingTextProps> = ({
     }, [isTyping, text, typingSpeed, eraseSpeed, pause]);
 
     return (
-        <h2 className=" font-bold border-r-4 border-accent inline-block min-h-8 animate-migation">
+        <h2 className="text-xl font-bold border-r-4 border-accent inline-block min-h-8 animate-migation">
             {displayed}
         </h2>
     );

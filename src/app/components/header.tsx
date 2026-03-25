@@ -122,7 +122,7 @@ export default function Header() {
       {isMenuOpen && (
         <div className="fixed top-0 left-0 right-0 bottom-0 z-40 md:hidden bg-bcolor/90 backdrop-blur-xl flex flex-col items-center justify-center">
 
-          <ul className="flex flex-col items-center gap-4 text-center">
+          <ul className="flex flex-col items-center gap- text-center">
             <li>
               <Link 
                 href="#about" 

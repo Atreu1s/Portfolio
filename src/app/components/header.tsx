@@ -49,7 +49,7 @@ export default function Header() {
                 <Link 
                   href="#about" 
                   onClick={handleLinkClick}
-                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300"
+                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
                 >
                   Обо мне
                 </Link>
@@ -58,7 +58,7 @@ export default function Header() {
                 <Link 
                   href="#skills" 
                   onClick={handleLinkClick}
-                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300"
+                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
                 >
                   Навыки
                 </Link>
@@ -67,7 +67,7 @@ export default function Header() {
                 <Link 
                   href="#Projects" 
                   onClick={handleLinkClick}
-                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300"
+                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
                 >
                   Проекты
                 </Link>
@@ -76,7 +76,7 @@ export default function Header() {
                 <Link 
                   href="#education" 
                   onClick={handleLinkClick}
-                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300"
+                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
                 >
                   Образование
                 </Link>
@@ -85,7 +85,7 @@ export default function Header() {
                 <Link 
                   href="#contacts" 
                   onClick={handleLinkClick}
-                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300"
+                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
                 >
                   Контакты
                 </Link>
@@ -120,14 +120,14 @@ export default function Header() {
       </header>
 
       {isMenuOpen && (
-        <div className="fixed top-0 left-0 right-0 bottom-0 z-40 md:hidden bg-bcolor/95 backdrop-blur-xl flex flex-col items-center justify-center">
+        <div className="fixed top-0 left-0 right-0 bottom-0 z-40 md:hidden bg-bcolor/90 backdrop-blur-xl flex flex-col items-center justify-center">
 
-          <ul className="flex flex-col items-center gap-8 text-center">
+          <ul className="flex flex-col items-center gap-4 text-center">
             <li>
               <Link 
                 href="#about" 
                 onClick={handleLinkClick}
-                className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300"
+                className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
               >
                 Обо мне
               </Link>
@@ -136,7 +136,7 @@ export default function Header() {
               <Link 
                 href="#skills" 
                 onClick={handleLinkClick}
-                className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300"
+                className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
               >
                 Навыки
               </Link>
@@ -145,7 +145,7 @@ export default function Header() {
               <Link 
                 href="#Projects" 
                 onClick={handleLinkClick}
-                className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300"
+                className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
               >
                 Проекты
               </Link>
@@ -154,7 +154,7 @@ export default function Header() {
               <Link 
                 href="#education" 
                 onClick={handleLinkClick}
-                className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300"
+                className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
               >
                 Образование
               </Link>
@@ -163,7 +163,7 @@ export default function Header() {
               <Link 
                 href="#contacts" 
                 onClick={handleLinkClick}
-                className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300"
+                className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
               >
                 Контакты
               </Link>

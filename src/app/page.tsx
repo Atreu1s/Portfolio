@@ -23,7 +23,7 @@ export default function Home() {
         <div className="flex justify-center">
           <div className="w-64 h-64 animate-slime p-1 bg-accent">
             <div className="w-full h-full overflow-hidden animate-slime bg-bcolor ">
-              <img src="/RealImgS.webp" className="w-full h-full object-contain" />
+              <img src="/RealImg.webp" className="w-full h-full object-contain" />
             </div>
           </div>
         </div>

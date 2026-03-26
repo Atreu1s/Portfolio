@@ -32,7 +32,7 @@ const contacts = [
     {
         name: 'Резюме',
         value: 'Скачать PDF',
-        link: '/resume.pdf',
+        link: '/Захаров Артем Михайлович.pdf',
         icon: Download,
         color: 'hover:border-accent/50 hover:shadow-accent/20',
         copyable: false,
@@ -58,7 +58,7 @@ export default function Contacts() {
         e.preventDefault();
         const link = document.createElement('a');
         link.href = '/resume.pdf';
-        link.download = 'Atreu1s_Resume.pdf';
+        link.download = 'Резюме -Захаров Артем Михайлович.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

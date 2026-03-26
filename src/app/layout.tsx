@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Potfolio - Atreu1s_IT",
   description: "Захаров Артём Михайлович - Fullstack-разработчик. Портфолио, навыки, опыт работы, проекты и контакты.",
+  icons: "app/icon.svg",
 };
 
 export default function RootLayout({

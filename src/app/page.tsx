@@ -53,10 +53,7 @@ export default function Home() {
     <Separator />
 
     <section className="flex justify-center px-4 my-20" id="about">
-            <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-0 text-white 
-                            md:border md:border-white/20 md:shadow-[0_0_30px_rgba(255,255,255,0.1)] md:rounded-lg
-                            md:hover:border-white/40 md:hover:shadow-[0_0_50px_rgba(255,255,255,0.2)] 
-                            transition-all duration-300">
+            <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-0 text-white md:border md:border-white/20 md:shadow-[0_0_30px_rgba(255,255,255,0.1)] md:rounded-lg md:hover:border-white/40 md:hover:shadow-[0_0_50px_rgba(255,255,255,0.2)] transition-all duration-300">
 
                 {/* Левая колонка - Обо мне */}
                 <div className="p-6 md:p-8 border border-white/20 rounded-2xl md:border-0 md:rounded-none md:border-r-0 relative">

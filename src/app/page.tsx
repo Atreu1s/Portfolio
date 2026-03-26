@@ -11,7 +11,6 @@ import Footer from "./components/footer";
 import Separator from "./components/Seporator";
 // import CodewarsStats from "./components/CodeStats";
 
-// TODO: Шапка (Hero) Навыки (Stack) Опыт работы Проекты Контакты
 export default function Home() {
   return (
     <>
@@ -23,7 +22,7 @@ export default function Home() {
         <div className="flex justify-center">
           <div className="w-64 h-64 animate-slime p-1 bg-accent">
             <div className="w-full h-full overflow-hidden animate-slime bg-bcolor ">
-              <img src="/RealImg.webp" className="w-full h-full object-contain" />
+              <img src="/MainImg.webp" className="w-full h-full object-contain" />
             </div>
           </div>
         </div>

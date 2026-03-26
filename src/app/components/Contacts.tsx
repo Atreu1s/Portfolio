@@ -68,7 +68,7 @@ export default function Contacts() {
         <section className="flex justify-center my-10" id="contacts">
             <div className="max-w-6xl w-full">
 
-                <h2 className="text-2xl font-bold text-white mb-8 text-center">Контакты</h2>
+                <h2 className="text-2xl font-bold text-white mb-8 text md:text-center">Контакты</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {contacts.map((contact, index) => (
                         <a
@@ -77,7 +77,7 @@ export default function Contacts() {
                             onClick={contact.isResume ? handleDownloadResume : undefined}
                             target={!contact.isResume && contact.name !== 'Email' ? '_blank' : undefined}
                             rel={!contact.isResume && contact.name !== 'Email' ? 'noopener noreferrer' : undefined}
-                            className={`group relative flex items-center gap-4 p-5 border border-white/10 rounded-lg 
+                            className={`group relative flex items-center gap-4 p-5 border border-white/20 rounded-lg 
                             bg-bcolor/30 hover:bg-bcolor/50 ${contact.color}
                             hover:shadow-lg transition-all duration-300`}
                         >

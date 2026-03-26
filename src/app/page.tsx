@@ -6,6 +6,10 @@ import SkillsGrid from "./components/skills";
 import Works from "./components/Works";
 import Education from "./components/Education";
 import Contacts from "./components/Contacts";
+import Projects from "./components/Projects";
+import Footer from "./components/footer";
+import Separator from "./components/Seporator";
+// import CodewarsStats from "./components/CodeStats";
 
 // TODO: Шапка (Hero) Навыки (Stack) Опыт работы Проекты Контакты
 export default function Home() {
@@ -46,11 +50,7 @@ export default function Home() {
       </div>
     </section>
 
-    <div className="md:hidden flex items-center gap-4 my-12">
-      <div className="flex-1 h-px bg-white/20"></div>
-      <div className="w-2 h-2 rounded-full bg-accent"></div>
-      <div className="flex-1 h-px bg-white/20"></div>
-    </div>
+    <Separator />
 
     <section className="flex justify-center px-4 mx-4 my-20 " id="about">
       
@@ -78,27 +78,37 @@ export default function Home() {
         </div>
     </section>
 
-    <div className="md:hidden flex items-center gap-4 my-12">
-      <div className="flex-1 h-px bg-white/20"></div>
-      <div className="w-2 h-2 rounded-full bg-accent"></div>
-      <div className="flex-1 h-px bg-white/20"></div>
-    </div>
+    <Separator />
 
     <section className="px-4 mx-4 my-20 md:text-center" id="works">
-      
       <h2 className="text-2xl font-bold">Опыт работы</h2>
       <Works />
     </section>
 
-    <section className="px-4 mx-4 my-20 md:text-center" id="education">
-
-      <h2 className="text-2xl font-bold">Образование</h2>
-      <Education />
-    </section>
+    <Separator />
 
     <section className="px-4 mx-4 my-20" id="contacts">
       <Contacts />
     </section>
+
+    <Separator />
+
+    <section className="px-4 mx-4 my-20" id="projects">
+      <Projects />
+    </section>
+
+    {/* <section className="px-4 mx-4 my-20" id="codewars">
+      <CodewarsStats />
+    </section> */}
+
+    <Separator />
+
+    <section className="px-4 mx-4 my-20 md:text-center" id="education">
+      <h2 className="text-2xl font-bold">Образование</h2>
+      <Education />
+    </section>
+
+    <Footer />
     </>
   );
 }

@@ -74,20 +74,29 @@ export default function Header() {
               </li>
               <li>
                 <Link 
-                  href="#education" 
-                  onClick={handleLinkClick}
-                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
-                >
-                  Образование
-                </Link>
-              </li>
-              <li>
-                <Link 
                   href="#contacts" 
                   onClick={handleLinkClick}
                   className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
                 >
                   Контакты
+                </Link>
+              </li>
+              <li>
+              <Link 
+                href="#projects" 
+                onClick={handleLinkClick}
+                className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
+              >
+                Проекты
+              </Link>
+            </li>
+              <li>
+                <Link 
+                  href="#education" 
+                  onClick={handleLinkClick}
+                  className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
+                >
+                  Образование
                 </Link>
               </li>
             </ul>
@@ -152,20 +161,29 @@ export default function Header() {
             </li>
             <li>
               <Link 
-                href="#education" 
-                onClick={handleLinkClick}
-                className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
-              >
-                Образование
-              </Link>
-            </li>
-            <li>
-              <Link 
                 href="#contacts" 
                 onClick={handleLinkClick}
                 className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
               >
                 Контакты
+              </Link>
+            </li>
+            <li>
+              <Link 
+                href="#projects" 
+                onClick={handleLinkClick}
+                className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
+              >
+                Проекты
+              </Link>
+            </li>
+            <li>
+              <Link 
+                href="#education" 
+                onClick={handleLinkClick}
+                className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
+              >
+                Образование
               </Link>
             </li>
             

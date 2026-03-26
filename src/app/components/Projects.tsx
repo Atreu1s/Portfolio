@@ -19,7 +19,8 @@ const projects = [
         github: 'https://github.com/Atreu1s/ProgressBar',
         link: 'https://atreu1s.github.io/ProgressBar/',
         icon: Code,
-    }
+    },
+    
 ];
 
 export default function Projects() {

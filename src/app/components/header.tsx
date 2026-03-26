@@ -65,11 +65,11 @@ export default function Header() {
               </li>
               <li>
                 <Link 
-                  href="#Projects" 
+                  href="#works" 
                   onClick={handleLinkClick}
                   className="block text-1xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
                 >
-                  Проекты
+                  Опыт работы
                 </Link>
               </li>
               <li>
@@ -143,11 +143,11 @@ export default function Header() {
             </li>
             <li>
               <Link 
-                href="#Projects" 
+                href="#works" 
                 onClick={handleLinkClick}
                 className="block text-2xl text-gray-300 hover:text-accent transition-colors duration-300 p-2"
               >
-                Проекты
+                Опыт работы
               </Link>
             </li>
             <li>

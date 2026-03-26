@@ -30,6 +30,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+section[id],
+div[id] {
+  scroll-margin-top: 100px;
+}
+
 @keyframes slime {
   0% {
     border-radius: 30% 70% 55% 45% / 40% 45% 55% 60%;

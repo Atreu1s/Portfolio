@@ -58,7 +58,7 @@ export default function Contacts() {
         e.preventDefault();
         const link = document.createElement('a');
         link.href = '/resume.pdf';
-        link.download = 'Резюме -Захаров Артем Михайлович.pdf';
+        link.download = 'Zakharov_Artem_Rezume.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

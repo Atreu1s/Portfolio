@@ -4,6 +4,7 @@ import Header from "./components/header";
 import TypingText from "./components/TypingText";
 import SkillsGrid from "./components/skills";
 import Works from "./components/Works";
+import Education from "./components/Education";
 
 // TODO: Шапка (Hero) Навыки (Stack) Опыт работы Проекты Контакты
 export default function Home() {
@@ -85,6 +86,15 @@ export default function Home() {
     <section className="px-4 mx-4 my-20 md:text-center" id="works">
       <h2 className="text-2xl font-bold">Опыт работы</h2>
       <Works />
+    </section>
+
+    <section className="px-4 mx-4 my-20 md:text-center" id="education">
+      <h2 className="text-2xl font-bold">Образование</h2>
+      <Education />
+    </section>
+
+    <section className="px-4 mx-4 my-20" id="contacts">
+      <h2 className="text-2xl font-bold">Контакты</h2>
     </section>
     </>
   );

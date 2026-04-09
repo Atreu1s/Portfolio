@@ -100,7 +100,7 @@ export default function Projects() {
                             return (
                                 <div
                                     key={index}
-                                    className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0"
+                                    className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 px-2"
                                 >
                                     <div className={`h-full border border-white/20 rounded-lg overflow-hidden 
                                         bg-bcolor/30 hover:bg-bcolor/50 hover:border-accent/50

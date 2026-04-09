@@ -71,23 +71,25 @@ export default function Projects() {
     return (
         <section className="flex justify-center my-20" id="projects">
             <div className="max-w-6xl w-full">
-                <div className="flex items-center justify-between mb-8">
-                    <h2 className="text-2xl font-bold text-white">Проекты</h2>
-                    <div className="hidden md:flex gap-2">
-                        <button 
-                            onClick={scrollPrev} 
-                            className="p-2 rounded-lg bg-white/5 text-white hover:bg-accent hover:text-back transition disabled:opacity-30"
-                            aria-label="Назад"
-                        >
-                            ←
-                        </button>
-                        <button 
-                            onClick={scrollNext} 
-                            className="p-2 rounded-lg bg-white/5 text-white hover:bg-accent hover:text-back transition disabled:opacity-30"
-                            aria-label="Вперёд"
-                        >
-                            →
-                        </button>
+                <div className="relative flex items-center justify-start md:justify-center mb-8 md:px-0">
+                    <h2 className="text-2xl font-bold text-main text-left md:text-center">
+                    Проекты
+                    </h2>
+                    <div className="absolute right-0 hidden md:flex gap-2">
+                    <button 
+                        onClick={scrollPrev} 
+                        className="p-2 rounded-lg bg-white/5 text-main hover:bg-accent hover:text-back transition disabled:opacity-30"
+                        aria-label="Назад"
+                    >
+                        ←
+                    </button>
+                    <button 
+                        onClick={scrollNext} 
+                        className="p-2 rounded-lg bg-white/5 text-main hover:bg-accent hover:text-back transition disabled:opacity-30"
+                        aria-label="Вперёд"
+                    >
+                        →
+                    </button>
                     </div>
                 </div>
 

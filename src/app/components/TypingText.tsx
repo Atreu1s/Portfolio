@@ -23,12 +23,8 @@ const TypingText: React.FC<TypingTextProps> = ({
         let interval: NodeJS.Timeout;
 
         if (isTyping) {
-            // Печать текста
             interval = setInterval(() => {
-                // FIX 1: Захватываем символ СЕЙЧАС, пока index не изменился
                 const currentChar = text[index];
-                
-                // FIX 2: Проверка на выход за границы строки
                 if (index < text.length) {
                     setDisplayed((prev) => prev + currentChar);
                 }
@@ -41,7 +37,6 @@ const TypingText: React.FC<TypingTextProps> = ({
                 }
             }, typingSpeed);
         } else {
-            // Стирание текста
             interval = setInterval(() => {
                 setDisplayed((prev) => {
                     if (prev.length <= 1) {

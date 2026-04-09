@@ -27,8 +27,6 @@ export default function CodewarsStats() {
             setLoading(false);
         }
     };
-
-    // Языки для отображения (ключи должны быть в lowercase как в API)
     const targetLanguages = [
         { key: 'javascript', name: 'JavaScript', color: 'text-yellow-400' },
         { key: 'typescript', name: 'TypeScript', color: 'text-blue-400' },
@@ -81,7 +79,6 @@ export default function CodewarsStats() {
                         </div>
                     </div>
 
-                    {/* Всего решено задач */}
                     <div className="mb-6 pb-6 border-b border-white/10">
                         <p className="text-sm text-gray-400 mb-1">Всего решено задач</p>
                         <p className="text-xl font-semibold text-white">
@@ -89,7 +86,6 @@ export default function CodewarsStats() {
                         </p>
                     </div>
 
-                    {/* Языки */}
                     <div>
                         <h3 className="text-sm text-gray-400 mb-4">Языки программирования</h3>
                         <div className="space-y-3">

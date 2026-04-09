@@ -10,6 +10,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/footer";
 import Separator from "./components/Seporator";
 // import CodewarsStats from "./components/CodeStats";
+import Sertificate from "./components/Sertificate";
 
 export default function Home() {
   return (
@@ -53,10 +54,7 @@ export default function Home() {
 
     <section className="flex justify-center px-4 my-20" id="about">
             <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-0 text-white md:border md:border-white/20 md:shadow-[0_0_30px_rgba(255,255,255,0.1)] md:rounded-lg md:hover:border-white/40 md:hover:shadow-[0_0_50px_rgba(255,255,255,0.2)] transition-all duration-300">
-
-                {/* Левая колонка - Обо мне */}
                 <div className="p-6 md:p-8 border border-white/20 rounded-2xl md:border-0 md:rounded-none md:border-r-0 relative">
-                    {/* Линия 90% только на десктопе */}
                     <div className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 h-[90%] w-px bg-white/20" />
                     
                     <div className="space-y-4">
@@ -68,8 +66,6 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
-
-                {/* Правая колонка - Навыки */}
                 <div className="p-6 md:p-8" id="skills">
                     <h2 className="text-2xl text-accent font-bold">Навыки</h2>
                     <div className="mt-4">
@@ -84,6 +80,12 @@ export default function Home() {
     <section className="px-4 mx-4 my-20 md:text-center" id="works">
       <h2 className="text-2xl font-bold">Опыт работы</h2>
       <Works />
+    </section>
+
+    <Separator />
+
+    <section className="px-4 mx-4 my-20" id="contacts">
+      <Sertificate />
     </section>
 
     <Separator />

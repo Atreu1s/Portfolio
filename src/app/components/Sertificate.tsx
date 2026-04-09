@@ -110,7 +110,7 @@ export default function SkillsSection() {
                   href={skill.file}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`group relative flex flex-col bg-white/5 border border-white/10 ${skill.borderColor} rounded-xl p-4 hover:bg-white/[0.07] transition-all duration-300 cursor-pointer h-full`}
+                  className={`group relative flex flex-col bg-bcolor/30 border border-white/20 ${skill.borderColor} rounded-xl p-4 hover:bg-white/[0.07] transition-all duration-300 cursor-pointer h-full`}
                 >
                   <div className="flex items-start justify-between mb-3">
                     <div className={`w-10 h-10 rounded-lg bg-linear-to-br ${skill.color} flex items-center justify-center text-accent shrink-0 group-hover:scale-110 transition-transform`}>

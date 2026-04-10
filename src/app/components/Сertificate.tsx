@@ -39,7 +39,7 @@ const skills = [
   },
 ];
 
-export default function SkillsSection() {
+export default function Сertificate() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: 'start',
     slidesToScroll: 1,

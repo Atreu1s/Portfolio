@@ -123,7 +123,6 @@ export default function Projects() {
                                                 </h3>
                                             </div>
                                         </div>
-
                                         <div className="px-6 pb-4 flex-1">
                                             <p className="text-gray-400 text-sm leading-relaxed">
                                                 {project.description}

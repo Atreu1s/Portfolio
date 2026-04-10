@@ -10,7 +10,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/footer";
 import Separator from "./components/Seporator";
 // import CodewarsStats from "./components/CodeStats";
-import Sertificate from "./components/Sertificate";
+import Сertificate from "./components/Сertificate";
 
 export default function Home() {
   return (
@@ -82,11 +82,7 @@ export default function Home() {
       <Works />
     </section>
 
-    <Separator />
-
-    <section className="px-4 mx-4 my-20" id="contacts">
-      <Sertificate />
-    </section>
+    
 
     <Separator />
 
@@ -109,6 +105,12 @@ export default function Home() {
     <section className="px-4 mx-4 my-20 md:text-center" id="education">
       <h2 className="text-2xl font-bold">Образование</h2>
       <Education />
+    </section>
+
+    <Separator />
+
+    <section className="px-4 mx-4 my-20" id="certificateacts">
+      <Сertificate />
     </section>
 
     <Footer />

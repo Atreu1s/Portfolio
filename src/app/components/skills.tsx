@@ -1,11 +1,33 @@
 'use client';
 
+// const MySkills = [
+//     { category: "Frontend Core", skills: ["TypeScript", "React", "Next.js", "Vite"] },
+//     { category: "Backend & Data", skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST API"] },
+//     { category: "State & Quality", skills: ["Vitest", "Jest", "Zustand", "Zod", "React Hook Form", ] },
+//     { category: "DevOps & Workflow", skills: ["Git", "Docker", "CI/CD", "MSW", "AI/LLM Integration"] }
+// ];
+
+// const MySkills = [
+//     { category: "Frontend", skills: ["TypeScript", "React", "Next.js", "Vite", "TanStack Query"] },
+//     { category: "Backend & Databases", skills: ["Node.js", "Express", "PostgreSQL", "MongoDB"] },
+//     { category: "Forms & Testing", skills: ["React Hook Form", "Zod", "Vitest", "Jest", "React Testing Library"] },
+//     { category: "Infrastructure", skills: ["Git", "Docker", "GitHub Actions", "MSW", "AI-Augmented Dev"] }
+// ];
+
 const MySkills = [
-    { category: "Frontend", skills: ["JavaScript", "TypeScript", "React", "Next.js"] },
-    { category: "Backend", skills: ["Node.js", "Express", "REST API"] },
-    { category: "Databases", skills: ["PostgreSQL", "MongoDB"] },
-    { category: "Tools", skills: ["Git", "Linux", "Prompt Engineering", "LLM"] },
+    { category: "Frontend Core", skills: ["TypeScript", "React", "Next.js", "Vite", "TanStack Query"] },
+    { category: "Backend & Data", skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST API"] },
+    { category: "State & Quality", skills: ["Vitest", "Zustand", "React Hook Form", "Zod",  "React Testing Library"] },
+    { category: "DevOps & Workflow", skills: ["Git", "Docker", "CI/CD", "MSW", "AI/LLM"] }
 ];
+
+// const MySkills = [
+//     { category: "Frontend", skills: ["TypeScript",  "React", "Next.js", "TailWind"] },
+//     { category: "Backend", skills: ["Node.js", "Express", "REST API", "Axios"] },
+//     { category: "Databases", skills: ["PostgreSQL", "MongoDB"] },
+//     { category: "Testing", skills: ["Vitest", "Jest", "Zustand", "React Testing Library"] },
+//     { category: "Tools", skills: ["Git", "Linux", "Prompt Engineering", "AI/LLM"] },
+// ];
 
 export default function SkillsGrid() {
     return (

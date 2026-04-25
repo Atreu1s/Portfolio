@@ -7,13 +7,13 @@ import { useState, useEffect, useCallback } from 'react';
 
 const projects = [
     {
-        name: 'BarberShopB',
-        description: 'Премиум-сайт барбершопа с онлайн-записью, каталогом мастеров, портфолио и двухшаговой модалкой выбора филиала. Полная оптимизация под мобильные устройства, локальное SEO и анимации.',
-        stack: ['Next.js', 'React', 'TypeScript', 'Tailwind', 'Framer Motion'],
-        github: 'https://gitlab.com/atreu1s/barbershopb',
-        link: 'https://barbershopb.vercel.app/',
-        icon: Scissors,
-        isFeatured: false, 
+        name: 'Civis Dash',
+        description: 'Административная панель для учёта граждан с высокопроизводительной таблицей (100 000+ записей), карточкой с 20 разделами и 150+ полями, валидацией через Zod и дашбордом с метриками. Реализована виртуализация, тёмная тема, адаптив до 320px и тесты на Vitest.',
+        stack: ['Vite', 'React', 'TypeScript', 'MUI', 'TanStack Query', 'TanStack Table', 'TanStack Virtual', 'Zod', 'React Hook Form', 'Zustand', 'Vitest', 'MSW', 'Recharts'],
+        github: 'https://github.com/Atreu1s/civis-dash',
+        link: 'https://civis-dash-xi.vercel.app/',
+        icon: Globe,
+        isFeatured: true,
     },
     {
         name: 'TeaWorld',
@@ -22,7 +22,16 @@ const projects = [
         github: 'https://github.com/Atreu1s/TeaWorld',
         link: 'https://tea-world-opal.vercel.app/',
         icon: Globe,
-        isFeatured: true,
+        isFeatured: false,
+    },
+    {
+        name: 'BarberShopB',
+        description: 'Премиум-сайт барбершопа с онлайн-записью, каталогом мастеров, портфолио и двухшаговой модалкой выбора филиала. Полная оптимизация под мобильные устройства, локальное SEO и анимации.',
+        stack: ['Next.js', 'React', 'TypeScript', 'Tailwind', 'Framer Motion'],
+        github: 'https://gitlab.com/atreu1s/barbershopb',
+        link: 'https://barbershopb.vercel.app/',
+        icon: Scissors,
+        isFeatured: false, 
     },
     {
         name: 'ProgressBar Component',
